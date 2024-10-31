@@ -182,7 +182,11 @@ stdin.on('keypress', (char, key) => {
 
         return;
     } else if (key.name == 'return') {
-        if (filtered_data.length) {            
+        if (filtered_data.length) {  
+            if (idx < 0) {
+                process.exit();
+            } 
+
             let arr = filtered_data[idx].split('|');
             let cmd, matches;
 

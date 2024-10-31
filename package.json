@@ -1,0 +1,18 @@
+{
+  "name": "@8columns/q",
+  "description": "CLI to open URL and run application on Windows",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Mr.Manit Treeprapankit",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "bin": {
+    "q": "./index.js"
+  }
+}

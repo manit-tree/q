@@ -5,7 +5,7 @@ Command line to quickly open URL and Applition on Windows
 ### Installation
 
 ```bash
-npm install manit-tree/q
+npm install manit-tree/q -g
 ```
 
 ### Usage

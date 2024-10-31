@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from 'fs';
 import readlineModule from  'readline';
 import chalk from 'chalk';
@@ -14,7 +16,6 @@ let buffer = [];
 let filtered_data = [];
 let idx = -1;
 const data = JSON.parse(fs.readFileSync(__dirname + '/data.json', 'utf8'));
-
 
 data.sort();
 readlineModule.emitKeypressEvents(process.stdin);
